@@ -1,0 +1,30 @@
+body {
+    --darkGrey: #333333;
+    --lightGrey: #666666;
+    --lightWhite: #dadad3;
+    --skinColor: #dad2c0;
+}
+@media (min-width: 768px) {
+    .main-h1 {
+        float: right;
+        padding-right: 100px;
+        text-align: right;
+        padding-bottom: 15px;
+    }
+}
+.main-h1 {
+
+    border-bottom: 3px solid orange;
+    padding: 20px;
+    margin: 10px;
+    font-size: 58px;
+    font-weight: normal;
+    color: var(--darkGrey);
+}
+.navbarPills {
+    color: var(--darkGrey) !important;
+    font-size: 20px !important;
+}
+.navbar-shrink div div ul li a {
+    color: white !important;
+}
