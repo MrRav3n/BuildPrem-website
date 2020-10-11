@@ -1,3 +1,7 @@
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     --darkGrey: #333333;
     --lightGrey: #666666;
@@ -17,6 +21,24 @@ body {
     }
 }
 @media (max-width: 992px) {
+    .contactDiv {
+        margin-right: 0 !important;
+    }
+    .imgFooterDiv {
+        padding: 5px !important;
+    }
+    .strategyText {
+        padding: 20px !important;
+    }
+    .strategyDiv {
+        clip-path: none !important;
+    }
+    .wyrDiv {
+        margin-top: 0 !important;
+    }
+    .headerUni {
+        font-size: 45px;
+    }
     .navbarPills {
         color: white !important;
     }
@@ -94,8 +116,9 @@ body {
     color: var(--lightGrey);
 }
 .strategyDiv {
+    background-repeat: no-repeat;
     clip-path: polygon(0 1%, 100% 0, 100% 78%, 0 100%);
-    height: 75vh;
+    min-height: 75vh;
     background-image: url("../assets/img/footerImg.jpg");
 }
 .contactDiv {

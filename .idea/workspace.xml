@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/footerImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/footerImg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602337433010</updated>
       <workItem from="1602337434059" duration="6208000" />
-      <workItem from="1602430171716" duration="12701000" />
+      <workItem from="1602430171716" duration="16716000" />
     </task>
     <servers />
   </component>
@@ -81,10 +84,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602448832465">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602450975130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602448832465" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602450975130" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1602350147103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
