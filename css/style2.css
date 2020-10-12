@@ -53,7 +53,6 @@ body {
     color: var(--darkGrey);
 }
 .navbarPills {
-    color: var(--darkGrey) !important;
     font-size: 20px !important;
     transition: all ease 0.3s;
 }
