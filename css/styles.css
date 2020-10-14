@@ -10137,6 +10137,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
   height: 100vh !important;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -10449,7 +10450,6 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }

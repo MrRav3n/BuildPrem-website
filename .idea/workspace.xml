@@ -2,23 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/poland.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/united-kingdom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/language-script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/about/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/about/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/about/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/about/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/creative-market.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/designmodo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/envato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logos/themeforest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/map-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/navbar-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/01-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/01-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/02-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/02-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/03-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/03-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/04-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/05-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/06-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/language-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/language-script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +99,9 @@
       <workItem from="1602337434059" duration="6208000" />
       <workItem from="1602430171716" duration="16831000" />
       <workItem from="1602533461865" duration="635000" />
-      <workItem from="1602691124193" duration="4422000" />
+      <workItem from="1602691124193" duration="4722000" />
+      <workItem from="1602696407628" duration="1167000" />
+      <workItem from="1602710957380" duration="960000" />
     </task>
     <servers />
   </component>
@@ -102,6 +112,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602710578867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602710578867" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602691952375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -114,9 +128,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602693006510" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602695824658">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602711950667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602695824658" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602711950667" />
   </component>
 </project>

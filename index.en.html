@@ -14,6 +14,7 @@
         <link href="css/style2.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">BuildPrem</a>
@@ -24,23 +25,25 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#aboutUs" style="color: var(--darkGrey)">ABOUT US</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#profilDz" style="color: var(--darkGrey)">WHAT MAKES US UNIQUE</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#profilDz" style="color: var(--darkGrey)">BUSINESS PROFILE</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#kontakt" style="color: var(--darkGrey)">CONTACT</a></li>
-                        <a href="./index.html" class="d-flex p-0 m-0 ">
+                        <a href="./index.html" class="d-flex p-0 m-0 " onclick="dontNavigate()">
                             <img src="assets/img/poland.png" id="PLflag" alt="Poland flag" class="img-fluid flags align-self-center polandFlag">
                         </a>
                     </ul>
                 </div>
             </div>
         </nav>
+
         <header class="masthead w-100">
-            <h1 class="main-h1">Prezentacja <br> Spółki BuildPrem</h1>
+            <h1 class="main-h1">Company <br> Presentation</h1>
         </header>
+
         <section class="page-section row p-0 m-0 justify-content-center mt-5 mb-5" id="aboutUs">
             <div class="col-12 col-md-10">
                 <div class="text-center">
                     <div class="text-center text-md-right mt-4 justify-content-center row p-0 m-0">
-                        <div class="display-3 abUsHeader mb-5 mr-md-5 mt-md-5 headerColor">O NAS</div>
+                        <div class="display-3 abUsHeader mb-5 mr-md-5 mt-md-5 headerColor">ABOUT US</div>
                     </div>
                 </div>
                 <div class="row text-center justify-content-around p-0 m-0">
@@ -49,22 +52,24 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3 abUsH4">Jakość</h4>
-                        <p class="text-muted abUsP">Świadczymy wysokiej klasy usługi budowlane dla
-                            deweloperów, instytucji publicznych i inwestorów
-                            indywidualnych poprzez kompleksowe
-                            przygotowanie i realizację projektów. </p>
+                        <h4 class="my-3 abUsH4">Quality</h4>
+                        <p class="text-muted abUsP">We provide high-class construction services for
+                            developers, public institutions and individual
+                            investors through comprehensive preparation
+                            and implementation of projects.
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-smile fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3 abUsH4">Satysfakcja</h4>
-                        <p class="text-muted abUsP">Celem BuildPrem jest wykreowanie marki na rynku
-                            usług budowlanych, która dzięki zachowaniu
-                            wysokich standardów podczas całego procesu
-                            inwestycyjnego zapewni satysfakcję Klientów.
+                        <h4 class="my-3 abUsH4">Satisfaction</h4>
+                        <p class="text-muted abUsP">BuildPrem goal is to create a brand on the
+                            construction services market, which, thanks to
+                            maintaining high quality standards during the
+                            entire investment process, will ensure customer
+                            satisfaction.
                         </p>
                     </div>
                     <div class="col-md-4">
@@ -72,27 +77,29 @@
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-search-plus fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3 abUsH4">Precyzja wykonania</h4>
-                        <p class="text-muted abUsP">W oczach specjalistów z BuildPrem detale i szczegóły pełnią bardzo ważną funkcję w każdym z projektów.
-                            Dzięki zastosowaniu specjalistycznych narzędzi każdy projekt może być przeprowadzony dokładnie i precyzyjnie.</p>
+                        <h4 class="my-3 abUsH4">Precision of execution</h4>
+                        <p class="text-muted abUsP">In the eyes of BuildPr specialists, details and details play a very important role in each project.
+                            Thanks to the use of specialized tools, each project can be carried out accurately and precisely.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="page-section row p-0 m-0 justify-content-center mt-5 mb-md-5 profilDiv" >
+
+        <section class="page-section row p-0 m-0 justify-content-center mt-5 mb-md-5 profilDiv">
             <div class="profilImg"></div>
-            <div class="col-12 col-md-10">
+            <div class="col-12 col-md-10" id="profilDz">
                 <div class="text-center text-md-right mt-4 justify-content-end row p-0 m-0">
-                    <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni">PROFIL DZIAŁALNOŚCI</div>
+                    <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni">BUSINESS PROFILE</div>
                 </div>
                 <div class="row p-0 m-0">
                     <div class=" p-0 m-0 col-12 col-md-6 mt-3 mt-md-0">
                         <ul class="profilUl ml-md-5 text-md-left text-center p-0 pl-md-4">
-                            <li>Prace wykończeniowe</li>
-                            <li>Instalacje elektryczne</li>
-                            <li>Instalacje hydrauliczne</li>
-                            <li>Instalacje teletechniczne</li>
-                            <li>Termoizolacja budynków</li>
+                            <li>Finishing works </li>
+                            <li>Thermal insulation </li>
+                            <li>Electrical installations </li>
+                            <li>Hydraulic installations</li>
+                            <li>Teletechnical installations</li>
                         </ul>
                     </div>
                     <div class="col-6 profilUlRightImg d-none d-md-block"></div>
@@ -100,49 +107,48 @@
             </div>
         </section>
 
-        <section class="page-section row p-0 justify-content-center wyrDiv" id="profilDz">
+        <section class="page-section row p-0 justify-content-center wyrDiv">
             <div class="col-12 col-md-10 row p-0 m-0 justify-content-around">
                 <div class="mt-4 row align-items-md-start col-md-5 col-12 m-0 text-center justify-content-center">
-                    <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni mr-2 ml-2">CO NAS WYRÓŻNIA?
-                    </div>
+                    <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni mr-2 ml-2">WHAT MAKES US
+                        STANDOUT?</div>
                 </div>
                 <div class="col-2 d-none d-md-block">
                     <div class="wyrImg h-100"></div>
                 </div>
                 <div class="row m-0 p-md-0 p-4 col-md-3 col-12 text-md-left text-center">
                     <div class="wyrItem">
-                        <b>WYKWALIFIKOWANA</b> KADRA
-                        Z MIĘDZYNARODOWYM
-                        DOŚWIADACZENIEM
+                        <b>QUALIFIED</b> STAFF WITH INTERNATIONAL
+                        EXPERIENCE
                     </div>
                     <div class="wyrItem">
-                        <b>WYSOKIE STANDARDY</b> ORAZ <b>TERMINOWE</b> REALIZACJE PROJEKTÓW
+                        <b>TIMELY</b> AND <b>QUALITY</b> PROJECT DELIVERY
                     </div>
                     <div class="wyrItem">
-                        <b>WŁASNY PARK LOGISTYCZNY</b> ZINTEGROWANY
-                        Z <b>ŁAŃCUCHEM DOSTAW</b>
+                        <b>OWN</b>  SUPPLY CHAIN
+                        AND <b>LOGISTICS</b>
                     </div>
                     <div class="wyrItem lastWyrItem">
-                        <b>KOMPLEKSOWE ZARZĄDZANIE</b>ORAZ PROWADZENIE PROJEKTÓW
+                        <b>COMPREHENSIVE MANAGEMENT </b>OF A GIVEN PROJECT
                     </div>
                 </div>
             </div>
         </section>
-        <section class="pt-0 pt-md-5 mt-md-5 pb-3" id="kontakt">
+
+        <section class="pt-0 pt-md-5 mt-md-5 pb-3" >
             <div class="footer">
-                <div class="strategyDiv mb-md-0 mb-5 ">
+                <div class="strategyDiv mb-md-0 mb-5 " id="kontakt">
                     <div class="mt-4 row p-0 m-0 justify-content-md-end mr-md-5 justify-content-center">
-                        <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni mr-2 ml-2">STRATEGIA <br class="d-block d-md-none"> 2020-2025</div>
+                        <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni mr-2 ml-2">STRATEGY <br class="d-block d-md-none"> 2020-2025</div>
                     </div>
                     <div class="col-md-7 strategyText headerColor col-12">
-                        W związku z planowaną ekspansją
-                        BuildPrem poszukuje Klientów w
-                        całej Europie.
-                        W swoich działaniach skupia się
-                        na budowaniu długoterminowych
-                        relacji partnerskich, opartych na
-                        wzajemnych korzyściach oraz
-                        profesjonalnym podejściu.
+                        Due to planned expansion,
+                        BuildPrem is looking for Clients
+                        in Europe.
+                        BuildPrem focuses on the
+                        professional and long-term
+                        partnership, based on mutual
+                        benefits.
                     </div>
                 </div>
                 <div class="contactDiv row p-md-0 justify-content-between">
@@ -150,24 +156,30 @@
                         <img src="assets/img/logo.png" alt="123" class="img-fluid col-md-6 col-10"/>
                     </div>
                     <div class="col-md-6 col-12 flex-column p-md-0 row align-content-end m-0">
-                        <b class="mb-2 d-md-block d-none">BuildPrem s.c.</b>
-                        <div><i class="fas fa-map-marker-alt"></i>
+                        <b class="mb-2 d-md-block d-none">BuildPrem CLP</b>
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
                             ul. Sikorskiego 10/5
                             62-200 Gniezno
-                            Polska</div>
-                        <div><i class="fas fa-phone"></i>
-                            +48 697 697 888</div>
-                        <div><i class="fas fa-envelope"></i>
-                            BuildPrem4@gmail.com</div>
+                            Polska
+                        </div>
+                        <div>
+                            <i class="fas fa-phone"></i>
+                            +48 697 697 888
+                        </div>
+                        <div>
+                            <i class="fas fa-envelope"></i>
+                            BuildPrem4@gmail.com
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="js/scripts.js"></script>
+
     </body>
 </html>
