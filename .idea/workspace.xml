@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/language-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/language-script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,7 @@
       <workItem from="1602533461865" duration="635000" />
       <workItem from="1602691124193" duration="4722000" />
       <workItem from="1602696407628" duration="1167000" />
-      <workItem from="1602710957380" duration="960000" />
+      <workItem from="1602710957380" duration="1294000" />
     </task>
     <servers />
   </component>
