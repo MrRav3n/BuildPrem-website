@@ -1,8 +1,10 @@
 html,body {
     overflow-x: hidden;
+
 }
 
 body {
+    font-family: 'Lato', serif !important;
     --darkGrey: #333333;
     --lightGrey: #666666;
     --lightWhite: #dadad3;
@@ -22,6 +24,12 @@ body {
     }
 }
 @media (max-width: 992px) {
+    .lastWyrItem {
+        margin-bottom: 30px !important;
+    }
+    .flags {
+        max-height: 55px !important;
+    }
     .contactDiv {
         margin-right: 0 !important;
     }
@@ -142,3 +150,14 @@ body {
 .abUsP {
     font-size: 20px;
 }
+.flags {
+
+    max-height: 35px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.flags:hover {
+    transform: scale(1.3);
+}
+
+

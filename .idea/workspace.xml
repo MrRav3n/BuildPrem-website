@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/favicon-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/poland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/united-kingdom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/language-script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/about/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/team/3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -15,9 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,6 +61,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\BuildPrem" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\BuildPrem\assets\img" />
       <recent name="E:\BuildPrem\assets" />
@@ -74,6 +91,7 @@
       <workItem from="1602337434059" duration="6208000" />
       <workItem from="1602430171716" duration="16831000" />
       <workItem from="1602533461865" duration="635000" />
+      <workItem from="1602691124193" duration="4422000" />
     </task>
     <servers />
   </component>
@@ -84,13 +102,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602691952375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602691952375" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602450975130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602450975130" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1602533740061">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1602693006510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602533740061" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602693006510" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602695824658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602695824658" />
   </component>
 </project>
