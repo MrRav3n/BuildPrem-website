@@ -16,6 +16,7 @@ body {
 }
 @media (min-width: 768px) {
     .main-h1 {
+        padding: 20px;
         font-size: 80px !important;
         float: right;
         padding-right: 100px;
@@ -46,7 +47,7 @@ body {
         margin-top: 0 !important;
     }
     .headerUni {
-        font-size: 45px;
+        font-size: 40px;
     }
     .navbarPills {
         color: white !important;
@@ -55,16 +56,12 @@ body {
 
 .main-h1 {
     border-bottom: 3px solid orange;
-    padding: 20px;
     margin: 10px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
     color: var(--darkGrey);
 }
-.main-h1-2 {
-    font-size: 50px;
-    padding: 0;
-}
+
 .navbarPills {
     font-size: 20px !important;
     transition: all ease 0.3s;
