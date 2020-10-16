@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon-removebg-preview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/header-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logos/creative-market.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logos/designmodo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logos/envato.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logos/themeforest.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/map-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/navbar-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/01-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/01-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/02-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/02-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/03-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/03-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/04-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/04-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/05-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/05-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/06-full.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/portfolio/06-thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/language-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/language-script.js" afterDir="false" />
-    </list>
+    <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +75,7 @@
       <workItem from="1602533461865" duration="635000" />
       <workItem from="1602691124193" duration="4722000" />
       <workItem from="1602696407628" duration="1167000" />
-      <workItem from="1602710957380" duration="1294000" />
+      <workItem from="1602710957380" duration="1404000" />
     </task>
     <servers />
   </component>
