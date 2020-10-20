@@ -10065,11 +10065,11 @@ img::-moz-selection {
   padding: 0;
   border-radius: 100%;
 }
-
 #mainNav {
+  --bgColor: #282f35;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: var(--bgColor);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10119,7 +10119,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #212529;
+    background-color: var(--bgColor);
     color: white !important;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10137,15 +10137,15 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-  height: 100vh !important;
+
+  height: 90vh !important;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/1.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
@@ -10166,7 +10166,6 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    clip-path: polygon(0 0, 100% 0%, 100% 88%, 35% 100%);
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }

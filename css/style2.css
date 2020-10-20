@@ -16,18 +16,10 @@ body {
 }
 @media (min-width: 768px) {
     .main-h1 {
-        padding: 20px;
-        font-size: 80px !important;
-        float: right;
-        padding-right: 100px;
-        text-align: right;
-        padding-bottom: 15px;
+
     }
 }
 @media (max-width: 992px) {
-    .lastWyrItem {
-        margin-bottom: 30px !important;
-    }
     .flags {
         max-height: 55px !important;
     }
@@ -53,15 +45,40 @@ body {
         color: white !important;
     }
 }
-
-.main-h1 {
+.logoInNav {
+    height: 50px !important;
+    padding: 0 !important;
+}
+.aboutUsImg1 {
+    height: 75vh;
+    background-image: url("../assets/img/wyrImg.jpg");
+}
+.aboutUsImg2 {
+    height: 75vh;
+    background-image: url("../assets/img/wyrImg.jpg");
+}
+.aboutUsH2 {
+    margin: 40px 0 40px 0;
+    font-size: 25px;
+}
+.aboutUsH1 {
     border-bottom: 3px solid orange;
-    margin: 10px;
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 35px;
+}
+.main-h1 {
+    text-align: center;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px 0 50px 0;
     color: var(--darkGrey);
 }
-
+.whoWeAre {
+    font-size: 25px;
+}
+.whoWeAreText {
+    width: 50vw;
+    font-size: 20px;
+}
 .navbarPills {
     font-size: 20px !important;
     transition: all ease 0.3s;
@@ -89,7 +106,7 @@ body {
 }
 .profilUl li{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 22px;
 }
 .profilUl {
     list-style: none;
@@ -110,19 +127,16 @@ body {
     background-image: url("../assets/img/wyrImg.jpg");
 }
 .wyrItem {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 25px;
+    margin: 25px 0 25px 0;
+    font-size: 22px;
 }
-.lastWyrItem {
-    margin-bottom: 100px;
-}
+
 .wyrDiv {
     color: var(--lightGrey);
     margin-top: 150px;
 }
 .profilDiv {
-    margin-top: 25px;
+    margin-top: 150px !important;
     color: var(--lightGrey);
 }
 .strategyDiv {
@@ -131,7 +145,26 @@ body {
     min-height: 75vh;
     background-image: url("../assets/img/footerImg.jpg");
 }
+.contactItem {
+    cursor: pointer;
+    display: block;
+    color: #ababab !important;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.contactItem:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.conPart > h4 {
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+.conPart {
+    margin-right: 120px;
+}
 .contactDiv {
+    color: #ababab;
     font-size: 20px;
     margin-right: 150px;
 }

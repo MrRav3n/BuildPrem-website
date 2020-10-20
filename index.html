@@ -19,15 +19,22 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">BuildPrem</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                    <div class="d-lg-block d-none">
+                        <img class="img-fluid logoInNav" src="assets/img/logoNav1.png" id="logoNav1">
+                        <img class="img-fluid logoInNav d-none" src="assets/img/logoNav2.png" id="logoNav2">
+                    </div>
+                    <img class="img-fluid logoInNav d-lg-none d-flex" src="assets/img/logoNav2.png">
+                </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ml-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#page-top" style="color: var(--darkGrey)">Strona główna</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#aboutUs" style="color: var(--darkGrey)">O nas</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#profilDz" style="color: var(--darkGrey)">CO NAS WYRÓŻNIA</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#offert" style="color: var(--darkGrey)">Oferta</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#kontakt" style="color: var(--darkGrey)">Kontakt</a></li>
                         <a href="./index.en.html" class="d-flex p-0 m-0">
                             <img src="assets/img/united-kingdom.png" id="UKFlag" alt="UK flag" class="img-fluid flags align-self-center">
@@ -37,63 +44,59 @@
             </div>
         </nav>
 
-        <header class="masthead w-100">
-            <h1 class="main-h1">Prezentacja <br> Spółki BuildPrem</h1>
+        <header class="masthead w-100 row p-0 m-0 justify-content-center align-items-end">
+            <h1 class="main-h1 d-inline w-100">Jakość jest najważniejsza!</h1>
         </header>
 
         <section class="page-section row p-0 m-0 justify-content-center mt-5 mb-5" id="aboutUs">
             <div class="col-12 col-md-10">
                 <div class="text-center">
                     <div class="text-center text-md-right mt-4 justify-content-center row p-0 m-0">
-                        <div class="display-3 abUsHeader mb-5 mr-md-5 mt-md-5 headerColor">O NAS</div>
+                        <div class="display-4 abUsHeader mt-md-5 headerColor">O NAS</div>
                     </div>
                 </div>
-                <div class="row text-center justify-content-around p-0 m-0">
-                    <div class="col-md-4 mb-mb-0 mb-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3 abUsH4">Jakość</h4>
-                        <p class="text-muted abUsP">Świadczymy wysokiej klasy usługi budowlane dla
-                            deweloperów, instytucji publicznych i inwestorów
-                            indywidualnych poprzez kompleksowe
-                            przygotowanie i realizację projektów. </p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-smile fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3 abUsH4">Satysfakcja</h4>
-                        <p class="text-muted abUsP">Celem BuildPrem jest wykreowanie marki na rynku
-                            usług budowlanych, która dzięki zachowaniu
-                            wysokich standardów podczas całego procesu
-                            inwestycyjnego zapewni satysfakcję Klientów.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-search-plus fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3 abUsH4">Precyzja wykonania</h4>
-                        <p class="text-muted abUsP">W oczach specjalistów z BuildPrem detale i szczegóły pełnią bardzo ważną funkcję w każdym z projektów.
-                            Dzięki zastosowaniu specjalistycznych narzędzi każdy projekt może być przeprowadzony dokładnie i precyzyjnie.</p>
-                    </div>
+                <div class="text-center whoWeAre mb-5 mt-2">Kim jesteśmy?</div>
+                <div class="row p-0 m-0 justify-content-center">
+                    <div class="text-center whoWeAreText">BuildPrem to Firma budowlana i wykończeniowa,
+                        gdzie znajdziesz pełną obsługę oraz nasze poświęcenie w budowaniu i ulepszaniu budynków mieszkaniowych i
+                        komercyjnych zgodnie z potrzebami i pragnieniami klientów. Budowany od 2000 roku nasz zespół profesjonalistów z
+                        siedzibą w miejscowości Warszawa jest gotowy, aby zmodernizować Twoją przestrzeń dokładnie według
+                        Twoich wymagań. Wystarczy do nas zadzwonić lub napisać, a my skontaktujemy się z Tobą i podamy wycenę.</div>
                 </div>
             </div>
         </section>
 
-        <section class="page-section row p-0 m-0 justify-content-center mt-5 mb-md-5 profilDiv" >
-            <div class="profilImg"></div>
-            <div class="col-12 col-md-10">
-                <div class="text-center text-md-right mt-4 justify-content-end row p-0 m-0">
-                    <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni">PROFIL DZIAŁALNOŚCI</div>
+        <section class="page-section row p-0 m-0 justify-content-center mt-5 profilDiv">
+            <div class="row p-0 m-0 w-100">
+                <div class="col-6 aboutUsImg1"></div>
+                <div class="col-6 row p-0 m-0 justify-content-center align-items-center flex-column">
+                    <div class="row p-0 m-0 justify-content-center">
+                        <div class="headerColor col-7"><div class="aboutUsH1 mb-4">CO NAS WYRÓŻNIA?</div></div>
+                        <div class="col-7">
+                            <div class="wyrItem">
+                                <b>WYKWALIFIKOWANA</b> KADRA
+                                Z MIĘDZYNARODOWYM
+                                DOŚWIADACZENIEM
+                            </div>
+                            <div class="wyrItem">
+                                <b>WYSOKIE STANDARDY</b> ORAZ <b>TERMINOWE</b> REALIZACJE PROJEKTÓW
+                            </div>
+                            <div class="wyrItem">
+                                <b>WŁASNY PARK LOGISTYCZNY</b> ZINTEGROWANY
+                                Z <b>ŁAŃCUCHEM DOSTAW</b>
+                            </div>
+                            <div class="wyrItem">
+                                <b>KOMPLEKSOWE ZARZĄDZANIE</b>ORAZ PROWADZENIE PROJEKTÓW
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row p-0 m-0">
-                    <div class=" p-0 m-0 col-12 col-md-6 mt-3 mt-md-0">
-                        <ul class="profilUl ml-md-5 text-md-left text-center p-0 pl-md-4">
+                <div class="col-6 row p-0 m-0 justify-content-center align-items-center flex-column" id="offert">
+                    <div class="col-7">
+                        <div class="aboutUsH1 headerColor">PROFIL DZIAŁALNOŚCI</div>
+                        <div class="aboutUsH2">Najwyższej jakości</div>
+                        <ul class="profilUl text-md-left text-center p-0">
                             <li>Prace wykończeniowe</li>
                             <li>Instalacje elektryczne</li>
                             <li>Instalacje hydrauliczne</li>
@@ -101,77 +104,45 @@
                             <li>Termoizolacja budynków</li>
                         </ul>
                     </div>
-                    <div class="col-6 profilUlRightImg d-none d-md-block"></div>
                 </div>
+                <div class="col-6 aboutUsImg2"></div>
             </div>
         </section>
 
-        <section class="page-section row p-0 justify-content-center wyrDiv" id="profilDz">
-            <div class="col-12 col-md-10 row p-0 m-0 justify-content-around">
-                <div class="mt-4 row align-items-md-start col-md-5 col-12 m-0 text-center justify-content-center">
-                    <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni mr-2 ml-2">CO NAS WYRÓŻNIA?
-                    </div>
-                </div>
-                <div class="col-2 d-none d-md-block">
-                    <div class="wyrImg h-100"></div>
-                </div>
-                <div class="row m-0 p-md-0 p-4 col-md-3 col-12 text-md-left text-center">
-                    <div class="wyrItem">
-                        <b>WYKWALIFIKOWANA</b> KADRA
-                        Z MIĘDZYNARODOWYM
-                        DOŚWIADACZENIEM
-                    </div>
-                    <div class="wyrItem">
-                        <b>WYSOKIE STANDARDY</b> ORAZ <b>TERMINOWE</b> REALIZACJE PROJEKTÓW
-                    </div>
-                    <div class="wyrItem">
-                        <b>WŁASNY PARK LOGISTYCZNY</b> ZINTEGROWANY
-                        Z <b>ŁAŃCUCHEM DOSTAW</b>
-                    </div>
-                    <div class="wyrItem lastWyrItem">
-                        <b>KOMPLEKSOWE ZARZĄDZANIE</b>ORAZ PROWADZENIE PROJEKTÓW
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="pt-0 pt-md-5 mt-md-5 pb-3" id="kontakt">
+        <section class="pt-0 pb-0">
             <div class="footer">
-                <div class="strategyDiv mb-md-0 mb-5 ">
-                    <div class="mt-4 row p-0 m-0 justify-content-md-end mr-md-5 justify-content-center">
-                        <div class="display-3 mb-md-5 profilTexth2 mr-md-5 mt-md-5 headerColor headerUni mr-2 ml-2">STRATEGIA <br class="d-block d-md-none"> 2020-2025</div>
-                    </div>
-                    <div class="col-md-7 strategyText headerColor col-12">
-                        W związku z planowaną ekspansją
-                        BuildPrem poszukuje Klientów w
-                        całej Europie.
-                        W swoich działaniach skupia się
-                        na budowaniu długoterminowych
-                        relacji partnerskich, opartych na
-                        wzajemnych korzyściach oraz
-                        profesjonalnym podejściu.
-                    </div>
-                </div>
-                <div class="contactDiv row p-md-0 justify-content-between">
-                    <div class="col-md-6 imgFooterDiv text-md-left text-center col-12">
-                        <img src="assets/img/logo.png" alt="123" class="img-fluid col-md-6 col-10"/>
-                    </div>
-                    <div class="col-md-6 col-12 flex-column p-md-0 row align-content-end m-0 p-0">
-                        <b class="mb-2 d-md-block d-none">BuildPrem s.c.</b>
-                        <div>
-                            <i class="fas fa-map-marker-alt"></i>
-                            ul. Sikorskiego 10/5
-                            62-200 Gniezno
-                            Polska
+                    <div class="contactDiv bg-dark p-md-5 p-3 m-0">
+                        <div class="row p-0 m-0 flex-md-row flex-column">
+                            <div class="conPart text-left">
+                                <h4>Na skróty</h4>
+                                <a class="js-scroll-trigger contactItem" href="#page-top" style="color: var(--darkGrey)">O BuildPrem</a>
+                                <a class="js-scroll-trigger contactItem" href="#aboutUs" style="color: var(--darkGrey)">Oferta</a>
+                                <a class="js-scroll-trigger contactItem" href="#offert" style="color: var(--darkGrey)">Nasze rynki</a>
+                            </div>
+                            <div class="conPart text-left">
+                                <h4>Skontaktuj się z nami</h4>
+                                <div class="contactItem">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    ul. Sikorskiego 10/5
+                                    62-200 Gniezno
+                                    Polska
+                                </div>
+                                <div class="contactItem">
+                                    <i class="fas fa-phone"></i>
+                                    +48 697 697 888</div>
+                                <div class="contactItem">
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:biuro@buildprem.com">biuro@buildprem.com</a>
+                                </div>
+                            </div>
+                            <div class="conPart text-left">
+                                <h4>Pliki</h4>
+                                <div class="contactItem">
+                                    Polityka prywatności
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <i class="fas fa-phone"></i>
-                            +48 697 697 888</div>
-                        <div>
-                            <i class="fas fa-envelope"></i>
-                            BuildPrem4@gmail.com
-                        </div>
-                    </div>
+                        <div class="text-left mt-3">©2020 by BuildPrem.</div>
                 </div>
             </div>
         </section>
