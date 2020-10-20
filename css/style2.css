@@ -1,6 +1,5 @@
 html,body {
     overflow-x: hidden;
-
 }
 
 body {
@@ -14,29 +13,31 @@ body {
 .headerColor {
     color: var(--darkGrey);
 }
-@media (min-width: 768px) {
-    .main-h1 {
-
-    }
+.valDIv {
+    background-image: url("../assets/img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
 }
 @media (max-width: 992px) {
+    .profilDiv {
+        text-align: center;
+    }
     .flags {
         max-height: 55px !important;
     }
-    .contactDiv {
-        margin-right: 0 !important;
+    .whoWeAreText {
+        width: 85vw !important;
     }
-    .imgFooterDiv {
-        padding: 5px !important;
+    .aboutUsImg1 {
+        margin-top: 50px;
+        height: 40vh !important;
+        margin-bottom: 50px;
     }
-    .strategyText {
-        padding: 20px !important;
-    }
-    .strategyDiv {
-        clip-path: none !important;
-    }
-    .wyrDiv {
-        margin-top: 0 !important;
+    .aboutUsImg2 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        height: 40vh !important;
     }
     .headerUni {
         font-size: 40px;
@@ -50,12 +51,17 @@ body {
     padding: 0 !important;
 }
 .aboutUsImg1 {
+    margin-top: 100px;
     height: 75vh;
-    background-image: url("../assets/img/wyrImg.jpg");
+    background-image: url("../assets/img/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .aboutUsImg2 {
     height: 75vh;
-    background-image: url("../assets/img/wyrImg.jpg");
+    background-image: url("../assets/img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .aboutUsH2 {
     margin: 40px 0 40px 0;
@@ -89,21 +95,6 @@ body {
 .navbar-shrink div div ul li a {
     color: white !important;
 }
-.profilImg {
-    margin: 0;
-    padding: 0;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    background-attachment: fixed;
-    width: 100%;
-    height: 230px;
-    background-image: url("../assets/img/profil.jpg");
-}
-.profilTexth2 {
-    font-weight: 400;
-    border-bottom: 3px solid orange;
-}
 .profilUl li{
     margin-bottom: 20px;
     font-size: 22px;
@@ -111,52 +102,30 @@ body {
 .profilUl {
     list-style: none;
 }
-.profilUlRightImg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../assets/img/profil.jpg");
-    clip-path: polygon(0 1%, 100% 0%, 100% 100%, 8% 88%);
-}
 .profilUl li::before {
     content: "• ";
     color: orange; /* or whatever color you prefer */
-}
-.wyrImg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../assets/img/wyrImg.jpg");
 }
 .wyrItem {
     margin: 25px 0 25px 0;
     font-size: 22px;
 }
-
-.wyrDiv {
-    color: var(--lightGrey);
-    margin-top: 150px;
-}
 .profilDiv {
-    margin-top: 150px !important;
     color: var(--lightGrey);
-}
-.strategyDiv {
-    background-repeat: no-repeat;
-    clip-path: polygon(0 1%, 100% 0, 100% 78%, 0 100%);
-    min-height: 75vh;
-    background-image: url("../assets/img/footerImg.jpg");
 }
 .contactItem {
     cursor: pointer;
     display: block;
     color: #ababab !important;
     text-decoration: none;
+    font-size: 17px;
     transition: all ease 0.3s;
 }
 .contactItem:hover {
     color: #ffffff !important;
     text-decoration: none;
 }
-.conPart > h4 {
+.conPart > h5 {
     color: #dddddd;
     margin-bottom: 20px;
 }
@@ -168,25 +137,7 @@ body {
     font-size: 20px;
     margin-right: 150px;
 }
-.imgFooterDiv {
-    padding: 50px;
-}
-.strategyText {
-    padding: 50px;
-    font-size: 30px;
-}
-.abUsHeader {
-    font-weight: 400;
-}
-.abUsH4 {
-    color: var(--darkGrey);
-    font-size: 33px;
-}
-.abUsP {
-    font-size: 20px;
-}
 .flags {
-
     max-height: 35px;
     cursor: pointer;
     transition: all ease 0.3s;
