@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/mail/contact_me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mail/contact_me.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/mail/jqBootstrapValidation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mail/contact_me.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mail/contact_me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mail/contact_me.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mail/contact_me.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mail/jqBootstrapValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/mail/jqBootstrapValidation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Crypto-Wills" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -96,7 +93,9 @@
       <workItem from="1603219093494" duration="731000" />
       <workItem from="1603225057846" duration="2176000" />
       <workItem from="1603436373698" duration="629000" />
-      <workItem from="1604053087116" duration="4429000" />
+      <workItem from="1604053087116" duration="5346000" />
+      <workItem from="1604062508928" duration="1847000" />
+      <workItem from="1604065403695" duration="5501000" />
     </task>
     <servers />
   </component>
@@ -111,6 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604054817928" />
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1604060743034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="88" key="CommitChangelistDialog2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604060743034" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603437037845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,14 +170,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603213521340" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604062589873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604062589873" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602450975130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602450975130" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604053245480">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604065501090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604053245480" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604065501090" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1604053250829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
