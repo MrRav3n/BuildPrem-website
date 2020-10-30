@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f59d40-94f4-45d3-83af-8624b9469957" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mail/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mail/jqBootstrapValidation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/footerImg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/profil.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/profil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/profileImgRight.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/wyrImg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Home-School" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Crypto-Wills" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -57,12 +55,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\BuildPrem\assets" />
+      <recent name="E:\BuildPrem\assets\img" />
       <recent name="E:\BuildPrem" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\BuildPrem\assets\img" />
-      <recent name="E:\BuildPrem\assets" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\BuildPrem" />
     </key>
   </component>
@@ -96,7 +94,9 @@
       <workItem from="1603137937629" duration="18000" />
       <workItem from="1603212774254" duration="6054000" />
       <workItem from="1603219093494" duration="731000" />
-      <workItem from="1603225057846" duration="1265000" />
+      <workItem from="1603225057846" duration="2176000" />
+      <workItem from="1603436373698" duration="629000" />
+      <workItem from="1604053087116" duration="4429000" />
     </task>
     <servers />
   </component>
@@ -107,14 +107,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602710578867">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604054817928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602710578867" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603137954433">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604054817928" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603437037845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603137954433" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603437037845" />
     <state width="1899" height="189" key="GridCell.Tab.0.bottom" timestamp="1603218843958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -171,17 +171,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1602450975130" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1603214846865">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604053245480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603214846865" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604053245480" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1604053250829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604053250829" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603214092509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603214092509" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603225767070">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604055960941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603225767070" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.96.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604055960941" />
   </component>
 </project>

@@ -20,6 +20,9 @@ body {
     padding: 50px 0 50px 0;
 }
 @media (max-width: 992px) {
+    .fbIcon {
+        font-size: 45px !important;
+    }
     .profilDiv {
         text-align: center;
     }
@@ -41,9 +44,6 @@ body {
     }
     .headerUni {
         font-size: 40px;
-    }
-    .navbarPills {
-        color: white !important;
     }
 }
 .logoInNav {
@@ -86,6 +86,7 @@ body {
     font-size: 20px;
 }
 .navbarPills {
+    color: white !important;
     font-size: 20px !important;
     transition: all ease 0.3s;
 }
@@ -142,8 +143,84 @@ body {
     cursor: pointer;
     transition: all ease 0.3s;
 }
+.fbIcon {
+    color: #3b5998;
+    font-size: 28px;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+.fbIcon:hover {
+    transform: scale(1.3)
+}
 .flags:hover {
     transform: scale(1.3);
 }
+#mainNav {
+    --bgColor: #282f35;
 
+    background-color: var(--bgColor) !important;
+}
 
+#mainNav .navbar-toggler {
+    padding: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.75rem;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #fed136;
+    border: 0;
+}
+#mainNav .navbar-brand {
+    color: #fed136;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+    height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        border: none;
+        background-color: transparent;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        font-size: 1.5em;
+        transition: font-size 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: var(--bgColor);
+        color: white !important;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+    }
+    #mainNav.navbar-shrink .navbar-brand svg,
+    #mainNav.navbar-shrink .navbar-brand img {
+        height: 1.5rem;
+    }
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
+    }
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
+    }
+}

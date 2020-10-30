@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Buildprem website" />
+        <meta name="author" content="Dawid Kruk" />
         <title>BuildPrem</title>
         <script src="js/language-script.js"></script>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -14,17 +13,12 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/style2.css" rel="stylesheet" />
     </head>
-
     <body id="page-top">
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                    <div class="d-lg-block d-none">
-                        <img class="img-fluid logoInNav" src="assets/img/logoNav1.png" id="logoNav1">
-                        <img class="img-fluid logoInNav d-none" src="assets/img/logoNav2.png" id="logoNav2">
-                    </div>
-                    <img class="img-fluid logoInNav d-lg-none d-flex" src="assets/img/logoNav2.png">
+                        <img class="img-fluid logoInNav" src="assets/img/logoNav2.png" >
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -36,9 +30,16 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#aboutUs" style="color: var(--darkGrey)">O nas</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#offert" style="color: var(--darkGrey)">Oferta</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger navbarPills" href="#kontakt" style="color: var(--darkGrey)">Kontakt</a></li>
-                        <a href="./index.en.html" class="d-flex p-0 m-0">
-                            <img src="assets/img/united-kingdom.png" id="UKFlag" alt="UK flag" class="img-fluid flags align-self-center">
-                        </a>
+                        <div class="row p-0 m-0">
+                            <a href="./index.en.html" class="d-flex p-0 m-0">
+                                <img src="assets/img/united-kingdom.png" id="UKFlag" alt="UK flag" class="img-fluid flags align-self-center">
+
+                            </a>
+                            <a href="/" class="d-flex p-0 m-0 row justify-content-md-center align-items-center">
+                                <i class="fab fa-facebook-square fbIcon"></i>
+                            </a>
+                        </div>
+
                     </ul>
                 </div>
             </div>
@@ -74,23 +75,19 @@
                         <div class="headerColor col-md-7 col-12"><div class="aboutUsH1 mb-4">CO NAS WYRÓŻNIA?</div></div>
                         <div class="col-md-7 col-12">
                             <div class="wyrItem">
-                                <b>WYKWALIFIKOWANA</b> KADRA
-                                Z MIĘDZYNARODOWYM
-                                DOŚWIADACZENIEM
+                                <b>WYKWALIFIKOWANA</b> KADRA Z MIĘDZYNARODOWYM DOŚWIADACZENIEM
                             </div>
                             <div class="wyrItem">
                                 <b>WYSOKIE STANDARDY</b> ORAZ <b>TERMINOWE</b> REALIZACJE PROJEKTÓW
                             </div>
                             <div class="wyrItem">
-                                <b>WŁASNY PARK LOGISTYCZNY</b> ZINTEGROWANY
-                                Z <b>ŁAŃCUCHEM DOSTAW</b>
+                                <b>WŁASNY PARK LOGISTYCZNY</b> ZINTEGROWANY Z <b>ŁAŃCUCHEM DOSTAW</b>
                             </div>
                             <div class="wyrItem">
                                 <b>KOMPLEKSOWE ZARZĄDZANIE</b>ORAZ PROWADZENIE PROJEKTÓW
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-12 row p-0 m-0 flex-md-row-reverse ">
                     <div class="col-md-6 col-12 aboutUsImg2"></div>
@@ -107,9 +104,7 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
@@ -125,15 +120,43 @@
                     <div class="text-center whoWeAreText headerColor">
                         BuildPrem to Firma budowlana i wykończeniowa,
                         gdzie znajdziesz pełną obsługę oraz nasze poświęcenie w budowaniu i ulepszaniu budynków mieszkaniowych i
-                        komercyjnych zgodnie z potrzebami i pragnieniami klientów. Budowany od 2000 roku nasz zespół profesjonalistów z
-                        siedzibą w miejscowości Warszawa jest gotowy, aby zmodernizować Twoją przestrzeń dokładnie według
-                        Twoich wymagań. Wystarczy do nas zadzwonić lub napisać, a my skontaktujemy się z Tobą i podamy wycenę.
+                        komercyjnych zgodnie z potrzebami i pragnieniami klientów.
+                    </div>
+                    <div class="container">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="row align-items-stretch mb-5">
+                                <div class="col-md-6 mb-0">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" type="text" placeholder="Imię i nazwisko *" required="required" data-validation-required-message="Proszę wprowadź swoje imię i nazwisko." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" type="email" placeholder="Twój email *" required="required" data-validation-required-message="Proszę wprowadź adres email." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group mb-md-0">
+                                        <input class="form-control" id="phone" type="tel" placeholder="Numer telefonu *" required="required" data-validation-required-message="Proszę podaj numer telefonu." />
+                                        <p class="help-block text-danger m-0"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group form-group-textarea mb-md-0 h-100">
+                                        <textarea class="form-control h-100" id="message" placeholder="Wiadomość *" required="required" data-validation-required-message="Wprowadź wiadomość."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div id="success"></div>
+                                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Wyślij</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="pt-0 pb-0">
+        <section class="pt-0 pb-0" id="kontakt">
             <div class="footer">
                     <div class="contactDiv bg-dark p-md-5 p-3 m-0">
                         <div class="row p-0 m-0 flex-md-row flex-column">
@@ -147,9 +170,7 @@
                                 <h5>Skontaktuj się z nami</h5>
                                 <div class="contactItem">
                                     <i class="fas fa-map-marker-alt"></i>
-                                    ul. Sikorskiego 10/5
-                                    62-200 Gniezno
-                                    Polska
+                                    ul. Sikorskiego 10/5 62-200 Gniezno Polska
                                 </div>
                                 <div class="contactItem">
                                     <i class="fas fa-phone"></i>
@@ -161,20 +182,18 @@
                             </div>
                             <div class="conPart text-left">
                                 <h5>Pliki</h5>
-                                <div class="contactItem">
-                                    Polityka prywatności
-                                </div>
+                                <div class="contactItem">Polityka prywatności</div>
                             </div>
                         </div>
                         <div class="text-left mt-3 contactItem">©2020 by BuildPrem.</div>
                 </div>
             </div>
         </section>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="js/scripts.js"></script>
-
+        <script src="js/scripts.js" ></script>
+        <script src="assets/mail/contact_me.js" ></script>
+        <script src="assets/mail/jqBootstrapValidation.js" ></script>
     </body>
 </html>
